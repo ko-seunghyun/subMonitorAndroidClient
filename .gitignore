@@ -7,9 +7,28 @@
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+/.idea/deploymentTargetSelector.xml
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
 local.properties
+
+# Build artifacts
+bin/
+obj/
+
+# Third-party tools/installers (downloaded separately)
+**/NeedInstall/
+
+# IDE / OS
+.vs/
+*.user
+.DS_Store
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Server project (excluded from this repo)
+/subMonitorForAndroidServer/
