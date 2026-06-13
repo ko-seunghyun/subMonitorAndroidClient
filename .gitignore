@@ -1,0 +1,14 @@
+# Build artifacts
+bin/
+obj/
+
+# Third-party tools/installers (downloaded separately)
+**/NeedInstall/
+
+# IDE / OS
+.vs/
+*.user
+.DS_Store
+
+# Claude Code local settings
+.claude/settings.local.json
